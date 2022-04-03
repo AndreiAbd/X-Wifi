@@ -1,15 +1,17 @@
 @echo off
-Rem This Script written By CoderX - Andrei Abd 
-Rem █▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
-Rem █▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
-Rem mail      :  usr.g0a1@gmial.com
-Rem CoderX    :  https://andreiabd.github.io/CoderX/
-Rem Whatsapp  :  +963934820511
-Rem Pinterest :  https://www.pinterest.com/andreiabd93/
-Rem Instagram :  https://www.instagram.com/andrei_abd/
-Rem Linkeden  :  https://www.linkedin.com/in/andreiabd
-Rem Facebook  :  https://www.facebook.com/andreiaabd/
-Rem Github    :  https://github.com/AndreiAbd 
+color 02
+title X-Wifi [ Andrei Abd - CoderX ]
+:: This Script written By CoderX - Andrei Abd 
+:: █▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
+:: █▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
+:: mail      :  usr.g0a1@gmial.com
+:: CoderX    :  https://andreiabd.github.io/CoderX/
+:: Whatsapp  :  +963934820511
+:: Pinterest :  https://www.pinterest.com/andreiabd93/
+:: Instagram :  https://www.instagram.com/andrei_abd/
+:: Linkeden  :  https://www.linkedin.com/in/andreiabd
+:: Facebook  :  https://www.facebook.com/andreiaabd/
+:: Github    :  https://github.com/AndreiAbd 
 cls
 netsh wlan show profiles | findstr "All" >> wifiName.txt
 for /f "tokens=5" %%d in (wifiName.txt) do ( echo %%d ) >> result.txt
